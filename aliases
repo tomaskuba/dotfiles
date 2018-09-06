@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Some basic ones
+alias l="ls -la"
+alias ll="ls -la"
+alias ..="cd .."
+
+# `cat` with beautiful colors. requires Pygments installed.
+# sudo easy_install Pygments
+alias c='pygmentize -O style=monokai -f console256 -g'
+
+# enable Z jumping tool
+# `brew --prefix`/etc/profile.d/z.sh
+
+alias reload="source ~/.profile"
+alias dotfiles="code ~/"
+
+alias speedtest='curl -o /dev/null http://speedtest.london.linode.com/100MB-london.bin'
+
+alias gitx='open /Applications/GitX.app/ .'
+
+alias d='docker'
+alias dc='docker-compose'
+

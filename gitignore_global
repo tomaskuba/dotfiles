@@ -1,0 +1,9 @@
+*~
+.DS_Store
+.idea
+*.iml
+.project
+.vscode
+.sass-cache
+.node_modules
+auth.json
