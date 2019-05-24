@@ -11,6 +11,9 @@ for file in ~/.{aliases,functions,bash_prompt}; do
 done
 unset file
 
+# Set Locale of terminal
+export LANG=cs_CZ.UTF-8
+
 # Set CLICOLOR if you want Ansi Colors in iTerm2
 export CLICOLOR=1
 
